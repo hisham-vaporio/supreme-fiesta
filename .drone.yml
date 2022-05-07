@@ -1,6 +1,6 @@
 name: default
 
-kine: pipeline
+kind: pipeline
 type: docker
 
 steps:
