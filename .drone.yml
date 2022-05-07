@@ -1,0 +1,9 @@
+name: default
+
+kine: pipeline
+type: docker
+
+steps:
+- name: Hello World
+  commands:
+  - echo ${key1}
