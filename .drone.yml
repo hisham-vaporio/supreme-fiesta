@@ -7,4 +7,4 @@ steps:
 - name: Hello World
   image: busybox
   commands:
-  - echo {key1}
+  - echo $key1
