@@ -5,6 +5,6 @@ type: docker
 
 steps:
 - name: Hello World
-  image: busybox
+  image: quay.io/podman/stable
   commands:
-  - echo $key1
+  - env | sort
